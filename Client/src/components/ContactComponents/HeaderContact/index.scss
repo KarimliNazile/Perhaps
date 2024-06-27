@@ -1,0 +1,55 @@
+.HeaderImg{
+    height: 100vh;
+    width: 100%;
+   background-repeat: no-repeat;
+    background-image: url('http://metropolitanhost.com/themes/themeforest/angular/rims/assets/images/blog/banner/banner-4.jpg');
+}
+.HeaderText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 500px;
+    left: 700px;
+    position: absolute;
+    color:black;
+    font-size: 26px;
+    
+}
+@media only screen and (max-width: 960px){
+    .HeaderImg{
+        height: 100vh;
+        width: 100%;
+       background-repeat: no-repeat;
+        background-image: url('http://metropolitanhost.com/themes/themeforest/angular/rims/assets/images/blog/banner/banner-4.jpg');
+    }
+    .HeaderText{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 500px;
+        left: 300px;
+        position: absolute;
+        color:black;
+        font-size: 26px;
+        
+    }
+}
+@media only screen and (max-width: 571px){
+    .HeaderImg{
+        height: 100vh;
+        width: 100%;
+       background-repeat: no-repeat;
+        background-image: url('http://metropolitanhost.com/themes/themeforest/angular/rims/assets/images/blog/banner/banner-4.jpg');
+    }
+    .HeaderText{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 500px;
+        left: 150px;
+        position: absolute;
+        color:black;
+        font-size: 18px;
+        
+    }
+}
